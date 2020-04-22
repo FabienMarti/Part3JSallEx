@@ -83,7 +83,7 @@ let displayAbsoluteValue = function (number) {
 
 //Exercice 15 : Afficher les valeurs absolues de plusieurs nombres.
 let displayAbsoluteValues = function (numbersArray) {
-  let reponse = Math.abs(numbersArray);
+  let reponse = numbersArray.map(Math.abs);
   return reponse;
 }
 
