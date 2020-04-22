@@ -48,13 +48,14 @@ let removeSpaces = function (sentence) {
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
 let isString = function (sentence) {
-  return;
+  let reponse = typeof 'sentence';
+  return reponse;
 }
 
 
 //Exercice 10 : Afficher l'extension du fichier.
 let displayExtension = function (fileName) {
-  return;
+  return fileName.split('.').pop();
 }
 
 //Exercice 11 : Compter le nombre d'espace dans la chaîne.
@@ -71,25 +72,27 @@ let invertSentence = function (sentence) {
 
 //Exercice 13 : Chercher si dans la chaîne de caractère se trouve "La Manu".
 let searchInSentence = function (sentence) {
-  return 'A compléter';
+  let reponse = sentence.includes('La Manu')
+  return reponse;
 }
 
 //Exercice 14 : Afficher la valeur absolue d'un nombre.
 let displayAbsoluteValue = function (number) {
-  return 'A compléter';
+  return Math.abs(number);
 }
 
 //Exercice 15 : Afficher les valeurs absolues de plusieurs nombres.
 let displayAbsoluteValues = function (numbersArray) {
-  return 'A compléter';
+  let reponse = Math.abs(numbersArray);
+  return reponse;
 }
 
 //Exercice 16 : Calculer la surface d'un cercle en fonction de son rayon. L'arondir à l'entier le plus proche.
 let calculateArea = function (radius) {
-  return 'A compléter';
+  return Math.round(Math.PI * radius * radius);
 }
 
 //Exercice 17 : Calculer l'hypothènuse d\'un triangle rectangle. Arrondir à l'entier inférieur.
 let calculateHypotenuse = function (a, b) {
-  return 'A compléter';
+  return Math.round(Math.hypot(a, b));
 }
