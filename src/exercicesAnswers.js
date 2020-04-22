@@ -48,13 +48,13 @@ let removeSpaces = function (sentence) {
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
 let isString = function (sentence) {
-
+  return;
 }
 
 
 //Exercice 10 : Afficher l'extension du fichier.
 let displayExtension = function (fileName) {
-
+  return;
 }
 
 //Exercice 11 : Compter le nombre d'espace dans la chaîne.
@@ -65,7 +65,8 @@ let countSpaces = function (sentence) {
 
 //Exercice 12 : Inverser une chaîne de caractères.
 let invertSentence = function (sentence) {
-  return 'A compléter';
+  let reponse = sentence.split('').reverse().join('');
+  return reponse;
 }
 
 //Exercice 13 : Chercher si dans la chaîne de caractère se trouve "La Manu".
